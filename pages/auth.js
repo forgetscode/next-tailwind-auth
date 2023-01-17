@@ -1,4 +1,4 @@
-import './configureAmplify'
+import '../src/configureAmplify'
 import { useEffect, useState } from 'react'
 import { Auth } from 'aws-amplify'
 import SignIn from '../components/SignIn'

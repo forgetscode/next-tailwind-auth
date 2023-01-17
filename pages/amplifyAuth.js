@@ -1,7 +1,7 @@
 import { withAuthenticator } from '@aws-amplify/ui-react';
 import {useState, useEffect} from 'react';
 import { Auth } from 'aws-amplify';
-import './configureAmplify';
+import '../src/configureAmplify';
 
 function Profile() {
     const [user ,setUser] = useState(null)
