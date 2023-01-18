@@ -16,8 +16,8 @@ const awsmobile = {
             "profile",
             "aws.cognito.signin.user.admin"
         ],
-        "redirectSignIn": "https://next-tailwind-auth-jjq1s2ebh-forgetscode.vercel.app/",
-        "redirectSignOut": "https://next-tailwind-auth-jjq1s2ebh-forgetscode.vercel.app/",
+        "redirectSignIn": "https://next-tailwind-auth.vercel.app/auth",
+        "redirectSignOut": "https://next-tailwind-auth.vercel.app/auth",
         "responseType": "code"
     },
     "federationTarget": "COGNITO_USER_POOLS",
