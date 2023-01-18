@@ -16,8 +16,8 @@ const awsmobile = {
             "profile",
             "aws.cognito.signin.user.admin"
         ],
-        "redirectSignIn": "http://localhost:3000/",
-        "redirectSignOut": "http://localhost:3000/",
+        "redirectSignIn": "https://next-tailwind-auth-jjq1s2ebh-forgetscode.vercel.app/",
+        "redirectSignOut": "https://next-tailwind-auth-jjq1s2ebh-forgetscode.vercel.app/",
         "responseType": "code"
     },
     "federationTarget": "COGNITO_USER_POOLS",
